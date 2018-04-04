@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ah-yu/cache/issues"
   },
-  "homepage": "https://github.com/ah-yu/cache#readme"
+  "homepage": "https://github.com/ah-yu/cache#readme",
+  "devDependencies": {
+    "mocha": "^5.0.5"
+  }
 }

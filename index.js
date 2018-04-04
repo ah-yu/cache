@@ -14,7 +14,7 @@ class Node {
  */
 class LRUCache {
     constructor(capacity) {
-        this.capacity = capacity;
+        this.capacity = capacity || Number.MAX_VALUE;
         this.head = null;
         this.tail = null;
         this.map = new Map();
