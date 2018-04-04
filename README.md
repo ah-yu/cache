@@ -4,7 +4,7 @@ simple lru cache for node and browser
 ## Install
 
 ```js
-npm install simple-cache --save
+npm install ycache --save
 ```
 
 ## Usage
