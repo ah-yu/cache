@@ -1,0 +1,24 @@
+{
+  "name": "cache",
+  "version": "0.0.1",
+  "description": "cache for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ah-yu/cache.git"
+  },
+  "keywords": [
+    "node.js",
+    "cache",
+    "lru"
+  ],
+  "author": "buji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ah-yu/cache/issues"
+  },
+  "homepage": "https://github.com/ah-yu/cache#readme"
+}
