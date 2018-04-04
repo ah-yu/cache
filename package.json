@@ -1,5 +1,5 @@
 {
-  "name": "simple-cache",
+  "name": "ycache",
   "version": "0.0.1",
   "description": "cache for node",
   "main": "index.js",
