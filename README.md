@@ -15,6 +15,13 @@ const cache = new Cache(10000);
 cache.set('key','value'); // cache it
 cache.get('key'); //if you cache it 
 cache.cleanup(); // clean cache
+cache.update('key','anothervalue');// update cache
+```
+
+## Test
+
+```js
+npm run test
 ```
 
 

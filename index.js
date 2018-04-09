@@ -70,8 +70,6 @@ class LRUCache {
         } else if (!previous && next) {
             next.previous = null;
             node.previous = this.tail;
-        } else {
-            console.log('is already at tail');
         }
 
         node.next = null;
@@ -80,15 +78,30 @@ class LRUCache {
     get(key) {
         const node = this.map.get(key);
         if (!node) {
-            this._insertToEnd(node);
+            console.log('not cache that key-value');
+            return undefined;
         } else {
             this._moveToEnd(node);
+            return node.value;
         }
     }
 
     set(key, value) {
+        if (this.map.has(key)) {
+            console.log('already cache the same key');
+            return;
+        }
         const node = new Node(key, value);
         this._insertToEnd(node);
+    }
+
+    update(key, value) {
+        const node = this.map.get(key);
+        if (node) {
+            node.value = value;
+        } else {
+            console.log('not cache this key');
+        }
     }
 
     cleanup() {

@@ -29,4 +29,9 @@ describe('check lru cache', () => {
         assert(!testCache.get('one'));
         assert(!testCache.get('two'));
     })
+
+    it('check update func', () => {
+        testCache.update('one', 'oneoneone');
+        assert.equal(testCache.get('one'), 'oneoneone');
+    });
 })
