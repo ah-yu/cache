@@ -1,4 +1,6 @@
 # cache
+[![Build Status](https://travis-ci.org/ah-yu/cache.svg?branch=master)](https://travis-ci.org/ah-yu/cache)
+
 simple lru cache for node and browser
 
 ## Install
