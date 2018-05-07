@@ -39,8 +39,8 @@ class LRUCache {
         if (this.head) {
             const second = this.head.next;
             if (second) {
-                this.head = next;
-                next.previous = null;
+                this.head = second;
+                second.previous = null;
                 this.map.delete(this.head.data.key);
             } else {
                 this.head = this.tail = null;
