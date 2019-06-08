@@ -1,5 +1,5 @@
 # cache
-[![Build Status](https://travis-ci.org/ah-yu/cache.svg?branch=master)](https://travis-ci.org/ah-yu/cache)
+[![Build Status](https://travis-ci.org/ah-yu/cache.svg?branch=master)](https://travis-ci.org/ah-yu/cache) [![Greenkeeper badge](https://badges.greenkeeper.io/ah-yu/cache.svg)](https://greenkeeper.io/)
 
 simple lru cache for node and browser
 
